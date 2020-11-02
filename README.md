@@ -5,11 +5,9 @@ Home: https://github.com/QuantStack/pyls-memestra/
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyls-memestra-feedstock/blob/master/LICENSE.txt)
 
 Summary: Memestra plugin for the Python Language Server
-
-
 
 Current build status
 ====================

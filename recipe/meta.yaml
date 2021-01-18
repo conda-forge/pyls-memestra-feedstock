@@ -12,20 +12,18 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
-    - python >=3.0
+    - python >=3.4
     - pip
   run:
-    - python >=3.0
-    - gast
-    - beniget
-    - nbformat
+    - python >=3.4
     - pyyaml
     - python-language-server
     - memestra
+    - deprecator
 
 test:
   imports:

@@ -23,7 +23,7 @@ requirements:
     - pyyaml
     - python-language-server
     - memestra
-    - deprecator
+    - deprecated
 
 test:
   imports:

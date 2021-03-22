@@ -25,7 +25,7 @@ requirements:
     - memestra
     - deprecated
     - frilouz >=0.0.2
-    - pycodestyle>=2.7.0
+    - pycodestyle >=2.7.0
 
 test:
   requires:

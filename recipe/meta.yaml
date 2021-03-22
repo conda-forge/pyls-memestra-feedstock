@@ -1,5 +1,5 @@
 {% set name = "pyls-memestra" %}
-{% set version = "0.0.11" %}
+{% set version = "0.0.12" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 495611a910c1530887fe2075c95cd2dfeb088d8deda7ba264e10550db1c7fb00
+  sha256: 13cb24edb10679916def0bf964253e17e28e17e9ee11710a971917c2d0228eea
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 3
+  number: 0
 
 requirements:
   host:
@@ -24,6 +24,8 @@ requirements:
     - python-language-server
     - memestra
     - deprecated
+    - frilouz >=0.0.2
+    - pycodestyle >=2.7.0
 
 test:
   requires:

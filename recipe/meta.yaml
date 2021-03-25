@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -25,7 +25,8 @@ requirements:
     - memestra
     - deprecated
     - frilouz >=0.0.2
-    - pycodestyle >=2.7.0
+    # autopep8 >1.5.5 conflicts with python-language-server because of pycodestyle versions
+    - autopep8 =1.5.5
 
 test:
   requires:

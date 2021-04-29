@@ -21,7 +21,7 @@ requirements:
   run:
     - python >=3.4
     - pyyaml
-    - python-language-server
+    - python-lsp-server
     - memestra
     - deprecated
     - frilouz >=0.0.2

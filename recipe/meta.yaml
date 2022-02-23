@@ -1,5 +1,5 @@
 {% set name = "pyls-memestra" %}
-{% set version = "0.0.15" %}
+{% set version = "0.0.16" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 947be1b813fbf6c80646eb64abff0169709761a33a4e4e38d651ffaee5cb7260
+  sha256: ccc543776b81e339f0dfccf7c9bd0db7ba901f97461d36d004864efeaa35fedf
 
 build:
   noarch: python
